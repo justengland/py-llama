@@ -1,0 +1,5 @@
+conda install -y pytorch==2.2.0 cudatoolkit torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia
+pip install xformers==0.0.24
+pip install bitsandbytes
+
+pip uninstall -y cudatoolkit torchvision torchaudio pytorch-cuda pytorch nvidia
