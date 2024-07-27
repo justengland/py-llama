@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 from unsloth import FastLanguageModel
 import os
 
